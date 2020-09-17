@@ -1,1 +1,8 @@
-{}
+{
+  "baseUrl": "https://api.trello.com/1/",
+  "ignoreTestFiles": "*.js",
+  "viewportWidth": 1400,
+  "viewportHeight": 800
+  
+}
+  
