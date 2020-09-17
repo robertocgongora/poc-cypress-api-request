@@ -1,0 +1,27 @@
+{
+  "name": "poc-cypress-api-request",
+  "version": "1.0.0",
+  "description": "poc-cypress-api-request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertocgongora/poc-cypress-api-request.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertocgongora/poc-cypress-api-request/issues"
+  },
+  "homepage": "https://github.com/robertocgongora/poc-cypress-api-request#readme",
+  "devDependencies": {
+    "cypress": "^5.2.0",
+    "cypress-cucumber-preprocessor": "^2.5.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
